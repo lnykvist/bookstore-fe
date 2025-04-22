@@ -1,17 +1,17 @@
 
 # BookstoreFrontend
 
-A modern web application for browsing and purchasing books online. This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 19.2.8.
+A modern web application for managing book inventory. This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 19.2.8.
 
 ![BookstoreFrontend Screenshot](screenshot.png)
 
 ## Features
 
-- Browse books by category, author, or publisher
-- Search functionality with filters
-- User authentication and profile management
-- Shopping cart and checkout process
-- Order history and tracking
+- Comprehensive book inventory management
+- Search functionality by title, author, and ISBN
+- Book details including title, author, ISBN, publication date, and price
+- Stock status tracking
+- Add, edit, and delete book entries
 - Responsive design for mobile and desktop
 
 ## Prerequisites
@@ -81,8 +81,7 @@ Common generators:
 src/
 ├── app/
 │   ├── components/       # Reusable UI components
-│   ├── core/             # Core functionality (auth, http interceptors)
-│   ├── features/         # Feature modules (books, cart, checkout)
+│   ├── core/             # Core functionality (http interceptors)
 │   ├── models/           # TypeScript interfaces and models
 │   ├── services/         # API and business logic services
 │   ├── shared/           # Shared modules, pipes, directives
